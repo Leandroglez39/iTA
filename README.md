@@ -1,5 +1,33 @@
 # iTA
 
+> Process Mining is a computational discipline focused on discovering, monitoring, and improving processes. In the business sector, this discipline combines artificial intelligence techniques with data mining algorithms. Together, they excel at uncovering trends, patterns, and details within classified data systems. Within this domain, the Trace Alignment algorithm emerges as a pivotal tool. It specializes in detecting anomalies in patterns and pointing out similarities. Most existing implementations of this algorithm adopt a progressive alignment approach, which incurs a high computational cost. We propose a novel implementation of the Trace Alignment algorithm with significant theoretical modifications. Advanced programming and parallelism techniques have been incorporated. The algorithm's execution times have been optimized to a polynomial order, showcasing a marked improvement from previous implementations. The validation of our results confirms both the efficiency and the expected quality of the alignment.
+
+```bash
+
+iTA/
+├── Algorithms/
+│   ├── Algorithms.cpp
+│   ├── Algoritmos.cpp
+│   ├── edlib.cpp
+│   ├── Input.cpp
+│   ├── mstar.cpp
+│   ├── Nj.cpp
+│   ├── normal-NW.cpp
+│   ├── Refine.cpp
+│   ├── Tools.cpp
+│   ├── _editdistance.cpp
+├── data/
+├── outputs/
+├── benchmarks/
+│   ├── Balibase
+│   ├── Homstrad
+│   ├── OxBench
+├── .gitignore
+├── README.md
+├── Algorithms.sln
+└── CppProperties.json
+```
+
 ## Repository structure
 
 - `data/`: contains the data will be used in the project
